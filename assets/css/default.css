@@ -1,0 +1,58 @@
+.a_head {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 1224px;
+}
+
+.Tech_box {
+    float: left;
+    padding: 10px 0 0 20px;
+}
+
+.Tech_box a {
+    text-decoration: none;
+}
+
+.link_logo {
+    display: block;
+    overflow: hidden;
+    font-size: medium;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.gnb_Tech {
+    float: right;
+    padding-right: 22px;
+}
+
+.gnb_list {
+    float: left;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.menu_item {
+    float: left;
+    margin-left: 30px;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.menu_item:hover {
+    opacity: 0.8;
+}
+
+.gnb_list a {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
